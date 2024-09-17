@@ -1,0 +1,4 @@
+<ul>{% for name in names %}
+ 
+    <li><a href="{{ url_for('get_file', name=name) }}">{{ name }}</a></li>
+    {% endfor %}</ul>
